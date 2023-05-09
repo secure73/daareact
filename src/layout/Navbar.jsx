@@ -1,12 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import NavbarLg from "./navbarCpmponents/NavbarLg";
+import NavbarSm from "./navbarCpmponents/NavbarSm";
 export default function Navbar() {
   return (
-    <ul>
-        <li>home</li>
-        <li>about</li>
-        <li>product</li>
-        <li>register</li>
-    </ul>
-  )
+    <div>
+      <nav className="bg-gray-900">
+        <NavbarLg/>
+        <NavbarSm/>
+      </nav>
+    </div>
+  );
 }
