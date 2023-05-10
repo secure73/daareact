@@ -6,9 +6,9 @@ export default function Users() {
 
 
         <br />
-        <User/>
+        <User firstName="Ali" email="secure73@gmail.com"/>
         <br />
-        <User/>
+        <User firstName="Peter" email="peter@gmail.com"/>
     </div>
   )
 }
